@@ -1,6 +1,6 @@
-# 🗣️ Audio-Q&A Chatbot
+# 🗣️ Audio-Q&A App
 
-This project is an end-to-end **Audio-based Question Answering Chatbot** that enables users to upload an `.mp3` file, automatically transcribe the audio using **Amazon Transcribe**, generate embeddings via **Amazon Bedrock's Titan models**, and store the indexed chunks in **Pinecone** for semantic search. Users can then query the audio content and receive accurate answers using **context-aware LLM generation**.
+This project is an end-to-end **Audio-based Question Answering App** that enables users to upload an `.mp3` file, automatically transcribe the audio using **Amazon Transcribe**, generate embeddings via **Amazon Bedrock's Titan models**, and store the indexed chunks in **Pinecone** for semantic search. Users can then query the audio content and receive accurate answers using **context-aware LLM generation**.
 
 ---
 
@@ -29,8 +29,8 @@ This project is an end-to-end **Audio-based Question Answering Chatbot** that en
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/audio-qa-chatbot.git
-cd audio-qa-chatbot
+git clone https://github.com/your-username/audio-qa-app.git
+cd audio-qa-app
 ```
 
 ### 2. Create and Activate Virtual Environment
