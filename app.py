@@ -90,7 +90,7 @@ def transcribe_and_index(mp3_path, bucket):
 # Streamlit UI
 # ——————————————————————————————————————————————
 
-st.title("🗣️ Audio-Q&A Chatbot")
+st.title("🗣️ Audio Transcript Q&A App")
 
 load_dotenv()
 bucket = os.getenv("BucketName")
@@ -137,7 +137,7 @@ if st.session_state.get("state") == "ready":
             f"Question: {question}\nAnswer:"
         )
         resp = bedrock.invoke_model(
-            modelId="amazon.titan-text-express-v1",
+            modelId="amazon.nova-micro-v1:0",
             contentType="application/json",
             accept="*/*",
             body=json.dumps({
